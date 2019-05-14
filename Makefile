@@ -36,6 +36,10 @@ test-lint:
 
 deploy-init:
 	@echo ":: deploying book to dist folder ::"
+	sudo tlmgr update --all															# update texmaker
+	sudo tlmgr install collection-fontsrecommended			# update tex fonts
+	sudo tlmgr install lualatex-math
+	sudo tlmgr install fontspec													# fontspec used by xelatex and lualatex
 	pandoc src/book.md --pdf-engine=lualatex -f markdown -o dist/book.pdf -V mainfont='FuraCode Nerd' -V fontsize=11pt -V geometry:margin=1.3in
 
 # misc commands
