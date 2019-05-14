@@ -29,6 +29,7 @@ document output
 - the final document is lives at dist/book.pdf
 - the source document for PRs lives at src/book.md
 - document writing follows Pandocs markdown ( https://pandoc.org/MANUAL.html and https://daringfireball.net/projects/markdown/syntax )
+- font for build is FiraCode Nerd patched font (aka furacode-nerd-font https://nerdfonts.com/ ); can be installed using brew cask install font-firacode-nerd-font
 
 # license
 

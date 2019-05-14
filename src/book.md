@@ -16,3 +16,14 @@ The goals of DevOps span the entire delivery pipeline including :
 docker is a collection of interoperating software-as-a-service and platform-as-a-service offerings that employ operating-system-level virtualization to cultivate development and delivery of software inside standardized software packages called containers. the software that hosts the containers is called docker engine. it was first started in 2013 and is developed by docker, inc. the service has both free and premium tiers.
 
 containers are isolated from each other and bundle their own software, libraries and configuration files; they can communicate with each other through well-defined channels. all containers are run by a single operating-system kernel and are thus more lightweight than virtual machines. containers are created from images that specify their precise contents. images are often created by combining and modifying standard images downloaded from public repositories
+
+**challenge one**
+
+fulfill the following requirements :
+
+- on your local machine install docker
+- create a dockerfile based off alpine linux
+- install nginx as a web server in the container
+- spin up and share the container on docker hub ( https://hub.docker.com/ )
+- have the final image under 300 mb
+
