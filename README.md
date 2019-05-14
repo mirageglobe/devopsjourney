@@ -24,6 +24,12 @@ there are no general system requirements for contributing. however if you are de
 - nodejs (optional)
 - semver
 
+document output
+
+- the final document is lives at dist/book.pdf
+- the source document for PRs lives at src/book.md
+- document writing follows Pandocs markdown ( https://pandoc.org/MANUAL.html and https://daringfireball.net/projects/markdown/syntax )
+
 # license
 
-see LICENSE file.
+see LICENSE file. TLDR; CC0 (or public domain) licensed. Also vaguely applying to WTFPL ( https://en.wikipedia.org/wiki/WTFPL )
