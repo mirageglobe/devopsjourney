@@ -40,7 +40,7 @@ deploy-init:
 	sudo tlmgr install collection-fontsrecommended			# update tex fonts
 	sudo tlmgr install lualatex-math
 	sudo tlmgr install fontspec													# fontspec used by xelatex and lualatex
-	pandoc src/book.md --pdf-engine=lualatex -f markdown -o dist/book.pdf -V mainfont='Noto Sans CJK' -V fontsize=11pt -V geometry:margin=1.3in
+	pandoc src/book.md --pdf-engine=lualatex -f markdown -o dist/book.pdf -V mainfont='FuraCode Nerd Font' -V fontsize=11pt -V geometry:margin=1.3in
 
 # misc commands
 
