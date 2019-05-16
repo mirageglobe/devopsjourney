@@ -24,6 +24,14 @@ fulfill the following requirements :
 - on your local machine install docker
 - create a dockerfile based off alpine linux
 - install nginx as a web server in the container
-- spin up and share the container on docker hub ( https://hub.docker.com/ )
-- have the final image under 300 mb
+- spin up and share the container on public docker hub ( https://hub.docker.com/ )
+- have the final image under 30 mb
+
+**challenge two**
+
+fulfill the following requirements :
+
+- include php-fpm based off your public nginx container
+- show basic php info
+- the host on port 8081
 
