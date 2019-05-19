@@ -42,7 +42,7 @@ deploy-init:
 	sudo tlmgr install fontspec													# fontspec used by xelatex and lualatex
 	@echo "... done [ok]"
 
-deploy-package:
+deploy-package: 										## package up the book to pdf and markdown
 	@echo ":: deploying book to dist folder ::"
 	pandoc src/book.md --pdf-engine=lualatex -f markdown-implicit_figures -o dist/book.pdf -V mainfont='FuraCode Nerd Font' -V fontsize=11pt -V geometry:margin=1.3in
 	pandoc src/book.md --pdf-engine=lualatex -f markdown-implicit_figures -o dist/book.epub -V mainfont='FuraCode Nerd Font' -V fontsize=11pt -V geometry:margin=1.3in
