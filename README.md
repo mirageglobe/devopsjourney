@@ -3,9 +3,14 @@
 
 # a mob book
 
-an opinionated journey of DEVelopment and OPerationS wading thru mud and coming out the other end; is a mob book consisting of questions and tutorials around the topics of DEVOPS methology (continous learning and improvement). the key sections consists of : docker; buildpipes; infrastructure via aws; kubernetes. you may find topics on terraform, packer, heck even ruby.
+DevOps Journey : DevHackThorsDay - is an opinionated journey of DEVelopment and OPerationS helping you learn, wade thru mud and coming out the other end; this mob book consists of questions and tutorials around the topics of DEVOPS methology (continous learning and improvement). There are no answers, however solutions are posted throughout github and linked from the sections in this book.
 
-you can freely download and distribute this book according to the licence terms. book is here : https://github.com/mirageglobe/devopsjourney/blob/master/dist/book.pdf
+The key sections that this mob book focuses on are : docker; buildpipes; infrastructure via aws; kubernetes. you may find topics on terraform, packer, heck even ruby.
+
+you can freely download and distribute this book according to the licence terms. 
+
+pdf book here : https://github.com/mirageglobe/devopsjourney/blob/master/dist/book.pdf
+epub book here : https://github.com/mirageglobe/devopsjourney/blob/master/dist/book.epub
 
 # guidelines
 
@@ -28,7 +33,7 @@ there are no general system requirements for contributing. however if you are de
 - nodejs (optional)
 - semver
 
-document output
+generating documents
 
 - the final document is lives at dist/book.pdf
 - the source document for PRs lives at src/book.md
