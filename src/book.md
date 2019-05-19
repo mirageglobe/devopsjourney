@@ -27,6 +27,10 @@ fulfill the following requirements :
 - spin up and share the container on public docker hub ( https://hub.docker.com/ )
 - have the final image under 30 mb
 
+suggested solutions :
+
+- JamesMannion ( https://github.com/mannion007/devopsjourney/tree/master/src/assignment1 )
+
 **challenge two**
 
 fulfill the following requirements :
