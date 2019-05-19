@@ -3,6 +3,8 @@
 
 # a mob book
 
+![heroimage](https://github.com/mirageglobe/devopsjourney/blob/master/heroimage.png)
+
 DevOps Journey : DevHackThorsDay - is an opinionated journey of DEVelopment and OPerationS helping you learn, wade thru mud and coming out the other end; this mob book consists of questions and tutorials around the topics of DEVOPS methology (continous learning and improvement). There are no answers, however solutions are posted throughout github and linked from the sections in this book.
 
 The key sections that this mob book focuses on are : docker; buildpipes; infrastructure via aws; kubernetes. you may find topics on terraform, packer, heck even ruby.
