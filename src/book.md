@@ -1,4 +1,14 @@
 
+---
+title: 'DevOps Journey : DevHackThorsDay'
+author:
+- various authors
+---
+
+![title](src/images/cover-1.png)\
+
+\clearpage
+
 # DEVOPS Journey
 
 DevOps is a set of software development practices that combines software development (Dev) and information technology operations (Ops) to shorten the systems development life cycle while delivering features, fixes, and updates frequently in close alignment with business objectives. Different disciplines collaborate, making quality everyone's job.

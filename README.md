@@ -7,10 +7,10 @@ DevOps Journey : DevHackThorsDay - is an opinionated journey of DEVelopment and 
 
 The key sections that this mob book focuses on are : docker; buildpipes; infrastructure via aws; kubernetes. you may find topics on terraform, packer, heck even ruby.
 
-you can freely download and distribute this book according to the licence terms. 
+you can freely download and distribute this book according to the licence terms here :
 
-pdf book here : https://github.com/mirageglobe/devopsjourney/blob/master/dist/book.pdf
-epub book here : https://github.com/mirageglobe/devopsjourney/blob/master/dist/book.epub
+- pdf version : https://github.com/mirageglobe/devopsjourney/blob/master/dist/book.pdf
+- epub version : https://github.com/mirageglobe/devopsjourney/blob/master/dist/book.epub
 
 # guidelines
 
