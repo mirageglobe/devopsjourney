@@ -63,13 +63,13 @@ version: 									## show current version
 vinit: 										## initialise first version
 	@git tag 0.1.0
 
-vpatch: 									## show bumped version + patch (fix)
+vpatch:										## show bumped version + patch (fix) - use : git tag $(make vpatch)
 	@semver $$(git describe --tags --abbrev=0) -i patch
 
-vminor: 									## show bumped version + minor (non breaking)
+vminor:										## show bumped version + minor (non breaking) - use : git tag $(make vminor)
 	@semver $$(git describe --tags --abbrev=0) -i minor
 
-vmajor: 									## show bumped version + major (breaking)
+vmajor:										## show bumped version + major (breaking) - git tag $(make vmajor)
 	@semver $$(git describe --tags --abbrev=0) -i major
 
 help:  										## display this help
