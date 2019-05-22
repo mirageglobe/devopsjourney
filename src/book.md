@@ -21,11 +21,13 @@ The goals of DevOps span the entire delivery pipeline including :
 - shortened lead time between fixes
 - faster mean time to recovery (in the event of a new release crashing or otherwise disabling the current system)
 
+wooow, that was a pile of sturdy intro to some frig ass technology. hope that gave an idea. stay cool and read on. from a great man in our era; hq quotes - "from the power of gray skull, you have the power.."
+
 \clearpage
 
 # chapter 0 - getting started from zero
 
-Skip this chapter if you already have a nice setup with your laptop, and development environment. You may have come from various backgrounds, front end developer, backend developer, sys admin, freelancer design or even an accountant wanting to pick up some skills on development. This mob book will be covering topics on a wide spectrum of software development methods and technologies under the sun; so we will have you covered.
+***skip this chapter if you already have a nice setup with your laptop, and development environment.*** You may have come from various backgrounds, front end developer, backend developer, sys admin, freelancer design or even an accountant wanting to pick up some skills on development. This mob book will be covering topics on a wide spectrum of software development methods and technologies under the sun; so we will have you covered.
 
 A few things to get yourself embarked on this journey.
 
@@ -47,7 +49,11 @@ as a mac user, your system already has
 - python
 - default terminal
 
-it is recommended to use a package manager such as homebrew to improve your system application management. this in the long run will keep your system clear from bloat. generally it is recommended to use mac as its the best of both worlds, (1) you get a default linux base system having you to be familar with system structures (2) there are quite alot of great developers on macs so your support on getting better quality software is there (3) there are quite a number of mac users so when you develop or have issues, its quite easy to get help online from forums
+it is recommended to use a package manager such as homebrew to improve your system application management. this in the long run will keep your system clear from bloat. generally it is recommended to use mac as its the best of both worlds, 
+
+- (1) you get a default linux base system having you to be familar with system structures 
+- (2) there are quite alot of great developers on macs so your support on getting better quality software is there 
+- (3) there are quite a number of mac users so when you develop or have issues, its quite easy to get help online from forums
 
 IDEs, are integrated development environments. over my career, swapping one over another, ides are overrated. get a good editor to start with, notepad/brackets/nano/atom/vim. they are all relatively good and i have ordered them by difficulty; you might want to personally progress thru them from left to right. Vim is outright a monster to deal with but once you are there, you will love it; just like marmite. some of the greatest devs are on vim, it has been there since 1991 and still very active; of course for a reason. its in the top 5 of editors, uber great and not going to be replaced probably in the next 100 years. Just like that katana passed from generation to generation in ancient times.
 
