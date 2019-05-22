@@ -21,7 +21,7 @@ The goals of DevOps span the entire delivery pipeline including :
 - shortened lead time between fixes
 - faster mean time to recovery (in the event of a new release crashing or otherwise disabling the current system)
 
-wooow, that was a pile of sturdy intro to some frig ass technology. hope that gave an idea. stay cool and read on. from a great man in our era; hq quotes - "from the power of gray skull, you have the power.."
+whoooaaa ... that was a pile of sturdy intro to some frig ass technology mindset. hope that gave an idea, stay cool and read on. from a great man in our era; he with the muscles bigger than arnold, quotes - "from the power of gray skull, you have the power.."
 
 \clearpage
 
