@@ -25,7 +25,7 @@ The goals of DevOps span the entire delivery pipeline including :
 
 # chapter 0 - getting started from zero
 
-You may have come from various backgrounds, front end developer, backend developer, sys admin, freelancer design or even an accountant wanting to pick up some skills on development. This mob book will be covering topics on a wide spectrum of software development methods and technologies under the sun; so we will have you covered.
+Skip this chapter if you already have a nice setup with your laptop, and development environment. You may have come from various backgrounds, front end developer, backend developer, sys admin, freelancer design or even an accountant wanting to pick up some skills on development. This mob book will be covering topics on a wide spectrum of software development methods and technologies under the sun; so we will have you covered.
 
 A few things to get yourself embarked on this journey.
 
@@ -35,9 +35,31 @@ A few things to get yourself embarked on this journey.
 - sign up to stackoverflow where there is a large range of tech Q and As
 - make your laptop your temple; clear it up and start building it as your personalised tool for development
 
+**system setup**
+
 for your day to day development, either use a linux flavor or use macosx (which is bsd a variant of unix); windows is possible with powershell or cygwin, which allows bash shell on the machine. recommend to stick to linux or unix flavoured machines; it makes more sense.
 
-if you are on mac, use iterm2 ( https://iterm2.com/ ), its much better than the default terminal.
+if you are on mac, use iterm2 ( https://iterm2.com/ ), its much better than the default terminal. On linux, it is recommended to use one of the debian flavors such as ubuntu, linux mint ( https://linuxmint.com/ ) or even debian itself. For each of these, i recommend using MATE ( https://mate-desktop.org/ ) as your desktop due to its lightweight no frills stable interface ( https://linuxmint.com/ ). The alternatives are cinnamon or lxde ( https://lxde.org/ ). Others such as kde or kubuntu ( ubuntu bundled kde ) are heavier on resources and will run slower even if they look fancier.
+
+as a mac user, your system already has
+
+- ruby
+- python
+- default terminal
+
+it is recommended to use a package manager such as homebrew to improve your system application management. this in the long run will keep your system clear from bloat. generally it is recommended to use mac as its the best of both worlds, (1) you get a default linux base system having you to be familar with system structures (2) there are quite alot of great developers on macs so your support on getting better quality software is there (3) there are quite a number of mac users so when you develop or have issues, its quite easy to get help online from forums
+
+IDEs, are integrated development environments. over my career, swapping one over another, ides are overrated. get a good editor to start with, notepad/brackets/nano/atom/vim. they are all relatively good and i have ordered them by difficulty; you might want to personally progress thru them from left to right. Vim is outright a monster to deal with but once you are there, you will love it; just like marmite. some of the greatest devs are on vim, it has been there since 1991 and still very active; of course for a reason. its in the top 5 of editors, uber great and not going to be replaced probably in the next 100 years. Just like that katana passed from generation to generation in ancient times.
+
+**development habits**
+
+google, youtube, stackoverflow and github are your friends. google or stackoverflow your questions to help you progress in the long run. you are encouraged to setup accounts in both stackoverflow/github (free) and start contributing by answering questions or raising issues. this will help you in your journey in software development.
+
+try to be part of a development team or group of power users. they often impart or share good habits to allow you to progress very rapidly. join meetups (like mentioned above) to further your skill and widen your perspective on an area.
+
+Youtube?? yes, youtube. not for surfing games, gossips but yeah, search for tutorials on programming and development. there are tons of good tooling introduction and great instructors there often releasing videos for free.
+
+finally be an openminded **opinionated** developer; :D learn all the good tools where you can, and be religious on a few good ones. keep learning, keep bettering. the difficulty here is **knowing** which are the good ones. one smart person in our era left us with a good proverb; stay hungry stay foolish. we boldly top that by adding : stay naive. whaaadup...hold the friggin hammer and be brave.
 
 ![screen](src/images/chapter0-1.png)\
 
