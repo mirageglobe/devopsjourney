@@ -145,9 +145,31 @@ suggested solutions :
 
 fulfill the following requirements :
 
-- include php-fpm based off your public nginx container
-- show basic php info
-- the host port to access the running container should be on port 8081
+- include an engine (such as phpfpm/ruby-puma/java-tomcat/other) based off your public nginx container
+- show a page displaying basic system information
+- ensure you are able to run the entire stack within a single container (hint look at tini/s6/dumbinit)
+
+**challenge three**
+
+fulfill the following requirements :
+
+- include spin up a db container and use volume to mount this database (either mariadb/postgres/couchdb)
+- use compose methods to spin up both your web server container and db container in the same network
+- initiate a basic write and read from the webserver container to the db container; a basic helloworld is suffice
+- (additional challenge) : use custom networking to achieve this by not using docker compose
+
+**challenge four**
+
+fulfill the following requirements :
+
+- spin up docker swarm using 4-5 nodes - you can use virtualbox driver to create multiple machines (https://docs.docker.com/get-started/part4/)
+- run your stack in the docker swarm ensuring that the web service can perform the same read and writes
+- test your docker swarm web serve uptime by randomly killing of 2 nodes
+
+\clearpage
+
+# chapter 2 - pipelines
+
 
 
 
