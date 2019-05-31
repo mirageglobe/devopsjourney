@@ -137,9 +137,16 @@ fulfill the following requirements :
 - spin up and share the container on public docker hub ( https://hub.docker.com/ )
 - have the final image under 30 mb
 
+hints / pitfalls :
+
+- try adding multiple runs one by one to ensure that the commands work as expected
+- it is possible to run an empty container and execute commands to see how the container is responding
+- use docker logs to see whats wrong when a container dies randomly
+
 suggested solutions :
 
 - JamesMannion ( https://github.com/mannion007/devopsjourney/tree/master/src/assignment1 )
+- LiamPetch ( https://github.com/liampetch/devopsjourney/tree/master/src/Challenge1 )
 
 **challenge two**
 
@@ -148,6 +155,10 @@ fulfill the following requirements :
 - include an engine (such as phpfpm/ruby-puma/java-tomcat/other) based off your public nginx container
 - show a page displaying basic system information
 - ensure you are able to run the entire stack within a single container (hint look at tini/s6/dumbinit)
+
+suggested solutions :
+
+- LiamPetch ( https://github.com/liampetch/devopsjourney/tree/master/src/Challenge2 )
 
 **challenge three**
 
@@ -169,6 +180,7 @@ fulfill the following requirements :
 \clearpage
 
 # chapter 2 - pipelines
+
 
 
 
