@@ -177,6 +177,13 @@ fulfill the following requirements :
 - run your stack in the docker swarm ensuring that the web service can perform the same read and writes
 - test your docker swarm web serve uptime by randomly killing of 2 nodes
 
+**challenge five**
+
+fulfill the following requirements :
+
+- deploy either (a) ghost blog, or (b) wordpress, or (c) jekyllrb
+- ensure that your build can serve as a development environment; i.e. reasonable syncing speed between host and containers
+
 \clearpage
 
 # chapter 2 - pipelines
