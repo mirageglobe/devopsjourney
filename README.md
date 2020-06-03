@@ -31,9 +31,9 @@ make
 
 there are no general system requirements for contributing. however if you are deploying a pdf or epub, the deployment requirements are as follows :
 
-- pandoc
-- nodejs (optional)
-- semver
+- gnu make > 3.8
+- pandoc (https://pandoc.org)
+- semver (https://github.com/fsaintjacques/semver-tool)
 
 generating documents
 
