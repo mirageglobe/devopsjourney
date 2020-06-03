@@ -1,6 +1,6 @@
 
 ---
-title: 'DevOps Journey : DevHackThorsDay'
+title: 'DevOps Journey'
 author:
 - various authors
 ---
@@ -9,9 +9,21 @@ author:
 
 \clearpage
 
-# DEVOPS Journey : DevHackThorsDay
+# DEVOPS Journey
+
+On the summer of 2002, as a group of software engineers were out at a pub enjoying the sun, one of them receives a message from a colleague saying their website was down. This cannot be happening as the same thoughts ran through in the minds of each of the engineers. The spike was expected and precautions were done including adding an additional fixed line, fail-over servers and the lot. The group scrambled to the office started to connect to the servers. No response. Are we hacked? whats happened?
+
+Here one of the engineers, moved quickly straight into the server room, where interestingly enough, the machines were powered off. A quick look around, a monumental discovery was revealed, the cleaner unknowingly unplugged the mains which lead to a chain of disasters.
+
+So what can we learn from this? Even the most thoughtout failover prevention have infact a chance of failure and its only on the rear mirror that we can anticipate this event. The most mundane things can happen and cause a monumental structure to collapse, and in this case, it was not even the cause of a mis-designed architecture.
+
+And what does this story tell us about DevOps? nothing really.
+
+shocked? moving on, lets dig a bit deeper, before we move into DevOps definition. Think about the scenario and how a group of software engineers resolved the issue. its not about role, its not about area or design of architecture. its about how quickly a group a people resolved it irregardless of title. This is the core of the idea that will echo thru eons; fast feedback loop, shared knowledge of the entire stack, and a simple design. Just as Etsy encourages the use of boring technology. Look beyond the hype and use simple battle tested toolings that everyone understands well. Ultimately, its the business we are trying to run, not an ego of adopting the trendy technologies. trend sucks.
 
 DevOps is a set of software development practices that combines software development (Dev) and information technology operations (Ops) to shorten the systems development life cycle while delivering features, fixes, and updates frequently in close alignment with business objectives. Different disciplines collaborate, making quality everyone's job.
+
+next question. who is this book meant for? if you are in technology, developing software or use a form of technology tool to help your business, its you. It does not cover everything in detail, for the details, there are a few good recommended books in appendices.
 
 The goals of DevOps span the entire delivery pipeline including :
 
@@ -21,7 +33,7 @@ The goals of DevOps span the entire delivery pipeline including :
 - shortened lead time between fixes
 - faster mean time to recovery (in the event of a new release crashing or otherwise disabling the current system)
 
-whoooaaa ... that was a pile of sturdy intro to some frig ass technology mindset. hope that gave an idea, stay cool and read on. from a great man in our era; he with the muscles bigger than arnold, quotes - "from the power of gray skull, you have the power.."
+hope that gives an idea; stay cool and read on. from a great man in our era; he with the muscles bigger than arnold, quotes - "from the power of gray skull, you have the power.."
 
 \clearpage
 
@@ -188,7 +200,43 @@ fulfill the following requirements :
 
 # chapter 2 - pipelines
 
+In todays world, you will come across pipelines, containers and maybe rabbits. for this lets focus on rabbits, i mean pipelines. pipelines are essentially steps. just like going to 20 steps in your lego manual to get to the end result of a robin hood treehouse. the pipeline itself is an instruction set.
 
+The goal of pipelines is to ensure a few points :
 
+- verbosity in building
+- able to repeat
+- able to rebuild
+- ease of reviewing steps and issues
 
+Why do we need pipelines? ever heard of the common term "it works on my machine". pipelines are just to ensure that we have less of that and make sure a common way to get to the goal; in this case, deploying to production with expected quality.
+
+today, there are ways to build pipelines from basic to complex including
+
+- stepped makefiles with cron jobs
+- jenkins
+- concourse
+- gitlab
+- travis
+- circle
+
+The key in pipelines is to ensure that the correct build happens with the right dependencies. As your application grows in functionality, it no doubt will grow in dependencies such as libraries, framework components, runtime/buildtime environments and distribution targets.
+
+the key steps in a basic pipeline are as follows
+
+- prime environment
+- test src in unit tests
+- build
+- test in integration tests
+- test in performance / integrity tests
+- deploy
+
+# chapter 3 - testing
+
+# misc topics
+
+- compliance
+- architectures
+- monitoring and reporting
+- dev tooling
 
