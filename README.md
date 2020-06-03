@@ -34,6 +34,7 @@ there are no general system requirements for contributing. however if you are de
 - gnu make > 3.8
 - pandoc (https://pandoc.org)
 - semver (https://github.com/fsaintjacques/semver-tool)
+- basictex (https://www.tug.org/mactex/morepackages.html)
 
 generating documents
 
