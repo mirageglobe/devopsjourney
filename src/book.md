@@ -231,6 +231,8 @@ the key steps in a basic pipeline are as follows
 - test in performance / integrity tests
 - deploy
 
+*Canary deployments; have you heard of canary and blue green. on canary deployments, the word canary refers to an old method where miners who are working deep in the mines, would bring with them a canary bird. as the oxygen levels in the mines may not be suffice for miners, the canary bird itself serves as a warning for miners. if the canarys suffocate, it would mean for the miners to quickly leave the area. canary deployments make use of the word and therefore means a sub release or release to a small group of users to see if the new feature works as intended. *
+
 # chapter 3 - testing
 
 # misc topics
