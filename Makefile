@@ -85,6 +85,8 @@ setup-env: 											## setup tex
 build: 													## build book
 	$(call func_print_header,"build")
 	@echo ":: deploying book to dist folder ::"
-	pandoc src/book.md --pdf-engine=lualatex -f markdown-implicit_figures -o dist/book.pdf -V mainfont='FiraCode Nerd Font' -V fontsize=12pt -V geometry:margin=1.3in
-	pandoc src/book.md --pdf-engine=lualatex -f markdown-implicit_figures -o dist/book.epub -V mainfont='FiraCode Nerd Font' -V fontsize=12pt -V geometry:margin=1.3in
+	pandoc src/book.md --pdf-engine=lualatex -f markdown-implicit_figures -o dist/book.pdf -V mainfont='NotoSans Nerd Font' -V fontsize=12pt -V geometry:margin=1.4in
+	pandoc src/book.md --pdf-engine=lualatex -f markdown-implicit_figures -o dist/book.epub -V mainfont='NotoSans Nerd Font' -V fontsize=12pt -V geometry:margin=1.4in
+	# pandoc src/book.md --pdf-engine=lualatex -f markdown-implicit_figures -o dist/book.pdf -V mainfont='FiraCode Nerd Font' -V fontsize=12pt -V geometry:margin=1.3in
+	# pandoc src/book.md --pdf-engine=lualatex -f markdown-implicit_figures -o dist/book.epub -V mainfont='FiraCode Nerd Font' -V fontsize=12pt -V geometry:margin=1.3in
 	@echo "... done [ok]"
